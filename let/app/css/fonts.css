@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('../fonts/GothamMedium/GothamMedium.eot');
+    src: url('../fonts/GothamMedium/GothamMedium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GothamMedium/GothamMedium.woff') format('woff'),
+         url('../fonts/GothamMedium/GothamMedium.ttf') format('truetype'),
+         url('../fonts/GothamMedium/GothamMedium.svg#pt_sans_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../fonts/GothamBold/GothamBold.eot');
+    src: url('../fonts/GothamBold/GothamBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GothamBold/GothamBold.woff') format('woff'),
+         url('../fonts/GothamBold/GothamBold.ttf') format('truetype'),
+         url('../fonts/GothamBold/GothamBold.svg#pt_sans_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GeorgiaItalic';
+    src: url('../fonts/GeorgiaItalic/GeorgiaItalic.eot');
+    src: url('../fonts/GeorgiaItalic/GeorgiaItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GeorgiaItalic/GeorgiaItalic.woff') format('woff'),
+         url('../fonts/GeorgiaItalic/GeorgiaItalic.ttf') format('truetype'),
+         url('../fonts/GeorgiaItalic/GeorgiaItalic.svg#pt_sans_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('../fonts/ProximaNovaRegular/ProximaNovaRegular.eot');
+    src: url('../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNovaRegular/ProximaNovaRegular.woff') format('woff'),
+         url('../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf') format('truetype'),
+         url('../fonts/ProximaNovaRegular/ProximaNovaRegular.svg#pt_sans_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

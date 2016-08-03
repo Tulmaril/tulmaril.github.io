@@ -1,0 +1,242 @@
+* {
+  margin: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  position: relative;
+  min-height: 100%;
+  min-width: 900px;
+  background: #fff; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  height: auto; }
+
+.header {
+  width: 100%;
+  float: left;
+  height: 100px; }
+  .header .logo {
+    display: inline-block;
+    margin-top: 40px; }
+  .header .nav {
+    display: inline-block;
+    float: right;
+    margin-top: 45px; }
+    .header .nav .nav__item {
+      display: inline-block;
+      float: right;
+      font: 12px "GothamMedium";
+      text-transform: uppercase;
+      margin-left: 90px; }
+      .header .nav .nav__item .nav__item-link {
+        color: #a7a7a7; }
+  .header .nav__list {
+    display: inline-block; }
+
+.top_screen {
+  width: 100%;
+  background: url("../img/bg1.jpg") no-repeat center center;
+  height: 500px;
+  float: left;
+  text-align: center; }
+  .top_screen .headliner {
+    text-transform: uppercase;
+    font: 40px "GothamBold";
+    margin-top: 165px;
+    line-height: 130%; }
+  .top_screen .text {
+    font: 16px "GeorgiaItalic";
+    margin-top: 25px; }
+  .top_screen .arrow {
+    background: url("../img/arrow.png") no-repeat center center;
+    height: 85px;
+    margin-top: 60px; }
+
+.work {
+  text-align: center;
+  height: 900px;
+  float: left;
+  width: 100%; }
+  .work .headliner {
+    font: 30px "GothamBold";
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center; }
+    .work .headliner::after {
+      content: "";
+      height: 3px;
+      width: 27%;
+      background: #000;
+      display: block;
+      margin: 0 auto;
+      margin-top: 13px; }
+  .work .text {
+    margin-top: 30px;
+    font: 16px "ProximaNovaRegular"; }
+  .work .gallery {
+    width: 100%;
+    float: left;
+    text-align: center; }
+    .work .gallery a {
+      display: inline-block;
+      height: 170px;
+      width: 260px;
+      margin-right: 55px;
+      margin-top: 55px; }
+      .work .gallery a:nth-child(3n) {
+        margin-right: 0; }
+
+.team {
+  margin-top: 10px;
+  text-align: center;
+  height: 535px;
+  float: left;
+  width: 100%;
+  background: #f3f3f3; }
+  .team .headliner {
+    font: 30px "GothamBold";
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center; }
+    .team .headliner::after {
+      content: "";
+      height: 3px;
+      width: 20%;
+      background: #000;
+      display: block;
+      margin: 0 auto;
+      margin-top: 13px; }
+  .team .text {
+    margin-top: 25px;
+    font: 16px "ProximaNovaRegular";
+    line-height: 150%; }
+  .team .teammates {
+    margin-top: 50px; }
+    .team .teammates .teammate {
+      width: 205px;
+      height: 210px;
+      background: #fff;
+      display: inline-block;
+      float: left;
+      margin-right: 22px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+      padding-top: 15px; }
+      .team .teammates .teammate:last-child {
+        margin-right: 0; }
+      .team .teammates .teammate .fullname {
+        font: 16px "GothamBold";
+        text-transform: uppercase;
+        margin-top: 5px; }
+      .team .teammates .teammate .position {
+        font: 12px "GeorgiaItalic";
+        margin-top: 10px; }
+      .team .teammates .teammate .social {
+        margin-top: 17px; }
+        .team .teammates .teammate .social .twitter, .team .teammates .teammate .social .dribbble, .team .teammates .teammate .social .skype, .team .teammates .teammate .social .linkedin {
+          display: inline-block;
+          margin-right: 15px;
+          vertical-align: middle; }
+
+.contact {
+  height: 565px;
+  float: left;
+  width: 100%; }
+  .contact .headliner {
+    font: 30px "GothamBold";
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 40px; }
+    .contact .headliner::after {
+      content: "";
+      height: 3px;
+      width: 20%;
+      background: #000;
+      display: block;
+      margin: 0 auto;
+      margin-top: 13px; }
+  .contact .location {
+    display: inline-block;
+    float: left;
+    margin-right: 40px; }
+    .contact .location .text {
+      font: 16px "ProximaNovaRegular";
+      margin-bottom: 30px; }
+    .contact .location .map_wrapper {
+      border: 5px solid #fff;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+      width: 320px;
+      height: 320px; }
+  .contact .message {
+    display: inline-block;
+    float: left; }
+    .contact .message .text {
+      font: 16px "ProximaNovaRegular";
+      margin-bottom: 30px; }
+    .contact .message textarea {
+      background: #f2f2f2;
+      color: #999999;
+      border: 1px solid #d9d9d9;
+      width: 540px;
+      height: 230px;
+      padding: 25px;
+      font: 16px "GeorgiaItalic";
+      resize: none;
+      outline: none; }
+    .contact .message input[type="text"] {
+      background: #f2f2f2;
+      color: #999999;
+      border: 1px solid #d9d9d9;
+      font: 16px "GeorgiaItalic";
+      height: 60px;
+      width: 310px;
+      padding-left: 25px;
+      margin-top: 25px; }
+    .contact .message input[type="submit"] {
+      width: 205px;
+      height: 64px;
+      border: 2px solid #fff;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+      background: #6995a9 url("../img/send.png") no-repeat 33% center;
+      color: #fff;
+      font: 16px "GothamBold";
+      text-transform: uppercase;
+      padding-left: 30px;
+      margin-left: 20px; }
+
+.footer {
+  height: 80px;
+  float: left;
+  width: 100%;
+  background: #4f4f4f;
+  color: #6e6e6e;
+  font: 16px "ProximaNovaRegular";
+  padding-top: 30px; }
+  .footer span {
+    color: #949494; }
+  .footer .addr {
+    display: inline-block;
+    float: left; }
+  .footer .copyright {
+    display: inline-block;
+    float: right; }
