@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Anders';
+    src: url('../fonts/Anders/Anders.eot');
+    src: url('../fonts/Anders/Anders.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Anders/Anders.woff') format('woff'),
+         url('../fonts/Anders/Anders.ttf') format('truetype'),
+         url('../fonts/Anders/Anders.svg#pt_sans_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NordLight';
+    src: url('../fonts/NordLight/NordLight.eot');
+    src: url('../fonts/NordLight/NordLight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NordLight/NordLight.woff') format('woff'),
+         url('../fonts/NordLight/NordLight.ttf') format('truetype'),
+         url('../fonts/NordLight/NordLight.svg#pt_sans_narrowregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
