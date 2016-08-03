@@ -5,12 +5,31 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /**/ }
+  header{
+    padding-bottom: 20px;
+  }
+  a {
+    font: 25px "Anders";
+    display: block;
+    color: #fff;
+    text-decoration: none; }
+  #testt1, #testt2, #testt3 {
+    display: none;
+    height: 200px;
+    width: 260px;
+    float: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    opacity: 1;
+  }
+  #logo {
+    width: 60%; }
+  }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   #logo {
-    width: 70%; }
+    width: 80%; }
   /*Disable Animation on Mobile Devices*/
   .animated {
     /*CSS transitions*/
@@ -34,7 +53,9 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  /**/ }
+  .cont2 {
+    margin-top: -70px; }
+ }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
