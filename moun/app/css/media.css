@@ -1,0 +1,219 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+  header {
+    min-height: auto; }
+    header .menu {
+      height: 80px; }
+      header .menu li {
+        margin-right: 12px; }
+    header .button_call_us {
+      margin-top: 35px;
+      margin-left: 40px; }
+  .top_screen .text {
+    display: block; }
+  .our_journal_section .shadow {
+    width: 760px; }
+  .travel {
+    background-size: cover; }
+  .gallery .photo {
+    display: block;
+    float: none;
+    margin: 28px 0 0 0; }
+  .brands .brand_cont {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px; }
+    .brands .brand_cont:last-child {
+      margin-right: 50px; }
+  .clients .feedback_one, .clients .feedback_two {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px; }
+  .clients .text {
+    color: #000; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  header .button_call_us {
+    float: right;
+    margin-top: 10px; }
+    header .button_call_us a {
+      padding: 13px 20px; }
+  header .logo {
+    margin-top: 10px; }
+  header .menu {
+    margin-top: 51px;
+    display: none;
+    padding: 0;
+    position: absolute;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0; }
+    header .menu li {
+      display: block;
+      width: 100%;
+      text-transform: uppercase;
+      font: 12px 'OpenSans-Bold';
+      padding-left: 0px;
+      padding-top: 0px;
+      background: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      margin: 0;
+      border-bottom: 2px solid #9daeb6; }
+      header .menu li a:after {
+        background: transparent; }
+  .our_journal_section .shadow {
+    width: 380px;
+    margin: 0 auto; }
+  .wanna_go_section .form {
+    padding-top: 27px;
+    position: relative; }
+    .wanna_go_section .form .name {
+      padding: 17px 90px 17px 20px; }
+    .wanna_go_section .form .tell {
+      padding: 17px 90px 17px 20px; }
+    .wanna_go_section .form input[type="submit"] {
+      padding: 16px 50px 14px;
+      margin: 20px 0px 0px 0px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  .top-screen {
+    background: url("../img/header_small_bg.jpg") no-repeat center center;
+    height: 820px;
+    background-size: cover; }
+    .top-screen .button_order {
+      padding-left: 10px; }
+      .top-screen .button_order a {
+        display: inline-block;
+        text-transform: uppercase;
+        font: 14px 'Raleway-Bold';
+        color: #fff;
+        padding: 18px 66px;
+        border: 3px solid #36aeea;
+        -webkit-border-radius: 3px;
+                border-radius: 3px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        background: #36aeea; }
+  .about_us_section {
+    height: 740px;
+    margin: 0 auto;
+    background: #f6f4f5 url("../img/about_us_bg.png") no-repeat 50% center;
+    background-size: cover; }
+    .about_us_section .container {
+      margin-top: 0; }
+  .wanna_go_section .form {
+    padding-top: 27px; }
+    .wanna_go_section .form .name {
+      padding: 17px 50px 17px 20px;
+      width: 100%;
+      border: 2px solid #fff;
+      -webkit-border-radius: 5px;
+              border-radius: 5px;
+      font: 17px "OpenSans-Regular"; }
+    .wanna_go_section .form .tell {
+      padding: 17px 50px 17px 20px;
+      border: 2px solid #fff;
+      -webkit-border-radius: 5px;
+              border-radius: 5px;
+      font: 17px "OpenSans-Regular";
+      width: 100%;
+      margin: 0;
+      margin-top: 20px; }
+  footer {
+    text-align: center; }
+    footer .phone_number {
+      text-align: center; }
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    animation: none !important; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  header .button_call_us a {
+    padding: 13px 10px; }
+  header .logo {
+    margin-left: 0px; }
+  .gallery img {
+    min-width: 100%;
+    height: auto; }
+  .top-screen {
+    background: url("../img/header_small_bg.jpg") no-repeat 60% 10%;
+    height: 920px;
+    background-size: 1000%; }
+    .top-screen .headliner {
+      margin-left: 10px; }
+    .top-screen .subheadliner {
+      margin-left: 10px; }
+    .top-screen .text {
+      margin-left: 10px; }
+    .top-screen .button_order {
+      margin-left: 10px; }
+  .our_journal_section .shadow {
+    width: 320px; }
+    .our_journal_section .shadow .square {
+      width: 320px; }
+    .our_journal_section .shadow .image {
+      width: 320px; }
+      .our_journal_section .shadow .image .icon {
+        left: 38%;
+        top: 40%; }
+  .clients .name {
+    display: block;
+    margin: 0; }
+  .clients .job {
+    display: block; }
+  .clients .form {
+    width: 100%; }
+    .clients .form .special__form {
+      padding-left: 5px;
+      padding-right: 5px; }
+  .box-modal .form {
+    width: 100%;
+    margin-top: 20px; }
+    .box-modal .form .special__form {
+      padding-left: 5px;
+      padding-right: 5px; }
+  #small-modal {
+    width: 100%; }
+  .arcticmodal-container_i2 {
+    padding: 10px; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
