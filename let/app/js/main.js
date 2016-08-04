@@ -12,19 +12,53 @@ $(document).ready(function() {
 	}); 
 });
 
- 
-$(document).ready(function(){
-	$("#menu").on("click","a", function (event) {
-		//отменяем стандартную обработку нажатия по ссылке
-		event.preventDefault();
+var animate = {
+	'time': 500,
+	'randMin': 1000,
+	'randMax': 1200
+};
 
-		//забираем идентификатор бока с атрибута href
-		var id  = $(this).attr('href'),
-
-		//узнаем высоту от начала страницы до блока на который ссылается якорь
-			top = $(id).offset().top;
+(function($) {
+	
+	function rand(min, max) {
+		return Math.floor((Math.random() * (max - min + 1)) + min);
+	}
+	
+	var defaults = {
+		'randMin': 200,
+		'randMax': 200,
+		'time':	200
+	};
+	
+	$(function() {
 		
-		//анимируем переход на расстояние - top за 1500 мс
-		$('body,html').animate({scrollTop: top}, 1500);
+		var settings = $.extend(defaults, animate); 
+
+		$('a.animate').click(function(e) {
+			e.preventDefault();
+
+			var obj = $(this);
+			var time = settings.time;
+
+			if(obj.hasClass('rand')) {
+
+				time = rand(settings.randMin, settings.randMax);
+
+			} else {
+
+				var result = /time[0-1]+/.exec(obj.attr('class'));
+				if(result)
+					time = parseInt(new String(result).replace('time', ''));
+
+			}
+
+			$('html, body').animate({
+				scrollTop: $(obj.attr('href')).offset().top
+			}, 200);
+
+		});
+	
 	});
-});
+
+
+})(jQuery);
