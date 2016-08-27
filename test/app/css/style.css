@@ -1,0 +1,123 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  background: #fff; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.header {
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: #fff;
+  background: #000; }
+
+.header__container {
+  width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: auto;
+  background: url("/img/logo.png") center 0 no-repeat; }
+
+.header__headliner {
+  font: 18px 'Arial';
+  margin-top: 237px; }
+
+.header__button {
+  margin-top: 12px;
+  font: 34px 'Arial';
+  font-weight: bold;
+  display: inline-block;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00e6f5), color-stop(42%, #00aede), color-stop(77%, #00aede));
+  background: -webkit-linear-gradient(top, #00e6f5 0%, #00aede 42%, #00aede 77%);
+  background: linear-gradient(to bottom, #00e6f5 0%, #00aede 42%, #00aede 77%);
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
+  text-shadow: 1px 1px 2px black;
+  padding: 10px 20px 10px 20px;
+  -webkit-box-shadow: 0px 0px 15px white;
+          box-shadow: 0px 0px 15px white; }
+  .header__button:hover {
+    cursor: pointer; }
+
+.header__price {
+  font: 18px 'Arial';
+  margin-top: 15px; }
+
+.header__price-old {
+  font-size: 16px;
+  text-decoration: line-through; }
+
+.header__price-new {
+  color: #ffaf00;
+  font-weight: bold; }
+
+.content {
+  width: 100%;
+  float: left; }
+
+.content__container {
+  width: 1000px;
+  min-height: 445px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 20px 0px 20px; }
+
+.content__item {
+  display: inline-block;
+  float: left;
+  width: 230px;
+  margin-right: 10px;
+  border: 1px solid #e0e0e0;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  padding-top: 7px;
+  min-height: 350px; }
+  .content__item:last-child {
+    margin-right: 0; }
+
+.content__item-headliner {
+  text-align: center;
+  font: 16px "Arial";
+  font-weight: bold; }
+
+.content__item-headliner2 {
+  width: 150px;
+  margin: 0 auto; }
+
+.content__item-text {
+  font: 14px "Arial";
+  padding-left: 10px;
+  padding-right: 5px; }
+
+.content__item-pic {
+  position: relative;
+  height: 140px; }
+
+.content__item-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%; }
+
+.footer {
+  height: 115px;
+  background: #00698c;
+  width: 100%;
+  float: left; }
