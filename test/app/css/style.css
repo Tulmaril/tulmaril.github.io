@@ -9,8 +9,7 @@ html {
 
 body {
   position: relative;
-  min-height: -webkit-calc(100vh - 115px);
-  min-height: calc(100vh - 115px);
+  min-height: 100%;
   width: 100%;
   background: #fff;
   font-family: 'Arial'; }
@@ -69,7 +68,8 @@ body {
   width: 100%;
   text-align: center;
   background: #fff;
-  padding: 20px 15px 75px 15px; }
+  padding: 20px 15px 75px 15px;
+  min-height: auto; }
 
 .content__item {
   display: inline-block;
@@ -111,5 +111,15 @@ body {
 
 .footer {
   height: 115px;
+  margin-top: -115px;
   background: #00698c;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  position: relative; }
+
+.empty {
+  height: 115px; }
