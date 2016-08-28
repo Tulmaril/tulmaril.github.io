@@ -29,7 +29,7 @@ body {
   color: #fff;
   overflow: auto;
   min-height: 400px;
-  background: #000 url("/img/logo.png") center 0 no-repeat; }
+  background: #000 url("../img/logo.png") center top no-repeat; }
 
 .header__headliner {
   font-size: 1.125em;
