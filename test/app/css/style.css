@@ -11,33 +11,33 @@ body {
   position: relative;
   min-height: 100%;
   width: 100%;
-  background: #fff; }
+  background: #fff;
+  font-family: 'Arial'; }
 
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  margin: 0 auto; }
 
 .header {
   width: 100%;
   float: left;
   text-align: center;
   color: #fff;
-  background: #000; }
-
-.header__container {
-  width: 1000px;
-  height: 400px;
-  margin: 0 auto;
   overflow: auto;
-  background: url("/img/logo.png") center 0 no-repeat; }
+  max-height: 400px;
+  background: #000 url("/img/logo.png") center 0 no-repeat; }
 
 .header__headliner {
-  font: 18px 'Arial';
+  font-size: 1.125em;
   margin-top: 237px; }
 
 .header__button {
   margin-top: 12px;
-  font: 34px 'Arial';
+  font-size: 2.125em;
   font-weight: bold;
   display: inline-block;
   background: -webkit-gradient(linear, left top, left bottom, from(#00e6f5), color-stop(42%, #00aede), color-stop(77%, #00aede));
@@ -53,11 +53,12 @@ body {
     cursor: pointer; }
 
 .header__price {
-  font: 18px 'Arial';
-  margin-top: 15px; }
+  margin-top: 15px;
+  font-size: 1.125em;
+  margin-bottom: 15px; }
 
 .header__price-old {
-  font-size: 16px;
+  font-size: 1em;
   text-decoration: line-through; }
 
 .header__price-new {
@@ -66,41 +67,41 @@ body {
 
 .content {
   width: 100%;
-  float: left; }
-
-.content__container {
-  width: 1000px;
-  min-height: 445px;
-  margin: 0 auto;
+  float: left;
+  text-align: center;
   background: #fff;
-  padding: 20px 20px 0px 20px; }
+  padding: 20px 15px 0px 15px;
+  min-height: 445px; }
 
 .content__item {
   display: inline-block;
-  float: left;
+  vertical-align: top;
   width: 230px;
   margin-right: 10px;
   border: 1px solid #e0e0e0;
   -webkit-border-radius: 4px;
           border-radius: 4px;
   padding-top: 7px;
-  min-height: 350px; }
+  min-height: 360px; }
   .content__item:last-child {
     margin-right: 0; }
 
 .content__item-headliner {
   text-align: center;
-  font: 16px "Arial";
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 10px; }
 
 .content__item-headliner2 {
   width: 150px;
-  margin: 0 auto; }
+  margin-left: auto;
+  margin-right: auto; }
 
 .content__item-text {
-  font: 14px "Arial";
+  font-size: 0.875em;
   padding-left: 10px;
-  padding-right: 5px; }
+  padding-right: 5px;
+  text-align: left; }
 
 .content__item-pic {
   position: relative;
@@ -111,7 +112,6 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
   margin: auto;
   max-height: 100%;
   max-width: 100%; }
