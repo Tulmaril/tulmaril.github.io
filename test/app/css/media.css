@@ -38,7 +38,7 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .header {
-    background-size: 90%;
+    background-size: contain;
     min-height: auto; }
   .header__headliner {
     font-size: 0.9375em;
@@ -73,7 +73,9 @@
     vertical-align: top; }
   .content__item-pic {
     height: 150px;
-    width: 200px; } }
+    width: 200px; }
+  br {
+    display: none; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
