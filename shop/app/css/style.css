@@ -1,0 +1,243 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  position: relative;
+  min-height: 100%;
+  min-width: 320px;
+  background: #fff; }
+
+a {
+  text-decoration: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.product {
+  max-width: 1170px;
+  margin: 0 auto;
+  min-height: 550px;
+  position: relative; }
+
+#product__slider {
+  position: relative;
+  margin-top: 60px;
+  width: 93px;
+  height: 450px;
+  margin-bottom: 40px;
+  float: left; }
+
+.product__image {
+  float: left;
+  margin-left: 110px;
+  padding-top: 60px;
+  margin-right: 90px;
+  width: 30%; }
+
+.product__aside {
+  padding-top: 80px;
+  max-width: 500px;
+  width: 45%;
+  float: left; }
+
+.product__title {
+  text-transform: uppercase;
+  font: 24px "CirceExtraBold"; }
+
+.product__breadcrumbs-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 11px; }
+  .product__breadcrumbs-item:first-child {
+    margin-left: 0; }
+    .product__breadcrumbs-item:first-child .product__breadcrumbs-link:before {
+      display: none; }
+
+.product__breadcrumbs-link {
+  font: 13px "CirceLight";
+  color: #9d9d9d;
+  vertical-align: middle; }
+  .product__breadcrumbs-link:before {
+    content: "";
+    display: inline-block;
+    background: url("../images/arrow_right.png") 0 0 no-repeat;
+    width: 11px;
+    height: 5px;
+    margin-right: 15px;
+    vertical-align: middle; }
+
+.product__same {
+  margin-bottom: 45px;
+  margin-top: -8px; }
+
+.product__same-item {
+  display: inline-block;
+  vertical-align: middle; }
+
+.product__same-link {
+  font: 13px "CirceLight";
+  color: #559cee;
+  vertical-align: middle;
+  margin-right: 25px; }
+
+.product__price {
+  margin-bottom: 15px; }
+
+.product__price-old, .product__price-new, .product__price-promo {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "CirceBold";
+  margin-right: 10px; }
+
+.product__price-old {
+  text-decoration: line-through;
+  color: #c6c5c5;
+  font-family: "CirceLight"; }
+
+.product__price-new {
+  color: #9b9b9b;
+  margin-right: 30px; }
+
+.product__price-span {
+  font-family: "CirceLight"; }
+
+.product__lamoda {
+  display: inline-block;
+  width: 340px;
+  height: 65px;
+  background: #f4f4f3;
+  font: 13px "CirceLight";
+  padding-top: 12px;
+  padding-left: 50px;
+  position: relative;
+  margin-bottom: 50px; }
+
+.product__lamoda-existence {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px; }
+  .product__lamoda-existence:before {
+    content: "";
+    display: inline-block;
+    background: url("../images/check.png") 0 0 no-repeat;
+    width: 15px;
+    height: 10px;
+    margin-right: 5px;
+    position: absolute;
+    left: 22px;
+    top: 15px; }
+
+.product__lamoda-delivery {
+  display: block;
+  margin-right: 10px; }
+  .product__lamoda-delivery:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background: url("../images/car.png") 0 0 no-repeat;
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+    left: 22px;
+    top: 38px; }
+
+.product__buttons {
+  margin-bottom: 40px;
+  width: 100%; }
+
+.product__buttons-shop, .product__buttons-wishlist {
+  text-transform: uppercase;
+  font: 13px "CirceBold";
+  width: 240px;
+  height: 40px; }
+
+.product__buttons-shop {
+  background: #006be5;
+  color: #fff;
+  border: 1px solid #006be5;
+  margin-right: 15px; }
+
+.product__buttons-wishlist {
+  background: #fff;
+  color: #000;
+  border: 1px solid #d9d9d9; }
+
+.product__information {
+  display: inline-block;
+  font: 13px "CirceLight";
+  width: 480px;
+  margin-bottom: 30px; }
+
+.product__information-more {
+  text-transform: uppercase;
+  font: 13px "CirceBold";
+  border: 1px solid #f4f4f4;
+  height: 40px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 14px;
+  position: relative;
+  cursor: pointer;
+  display: none; }
+  .product__information-more:after {
+    content: '';
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: 16px;
+    background: url("../images/arrow.png") 0 0 no-repeat; }
+
+.product__information-ins {
+  display: none; }
+
+.product__soc {
+  display: inline-block;
+  font: 13px "CirceLight";
+  text-transform: uppercase;
+  height: 30px; }
+
+.product__soc-list {
+  display: inline-block;
+  height: 30px;
+  margin-left: 25px; }
+
+.product__soc-item {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px; }
+
+.product__soc-count {
+  display: inline-block;
+  height: 30px;
+  font: 13px "CirceLight";
+  background: #efefef;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  vertical-align: top;
+  position: relative;
+  margin-left: 10px; }
+  .product__soc-count:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -5px;
+    top: 11px;
+    border-style: solid;
+    border-width: 4.5px 5px 4.5px 0;
+    border-color: transparent #efefef transparent transparent; }

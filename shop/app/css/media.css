@@ -1,0 +1,174 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .product {
+    max-width: 950px;
+    margin: 0 auto; }
+  .product__image {
+    margin-left: 35px;
+    margin-top: 70px;
+    margin-right: 6%;
+    width: 31%;
+    position: relative;
+    height: 470px; }
+  .product__image-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%; }
+  .product__lamoda {
+    width: 80%; }
+  .product__buttons-shop, .product__buttons-wishlist {
+    width: 39%; }
+  .product__information {
+    width: 100%; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1000px) {
+  .product__soc-share {
+    display: none; }
+  .product__soc-list {
+    margin-left: 0; }
+  .product__image {
+    margin-left: 10px;
+    margin-top: 70px;
+    margin-right: 5%;
+    width: 39%;
+    position: relative;
+    height: 470px; }
+  .product__aside {
+    width: 39%; }
+  .product__lamoda {
+    width: 100%;
+    margin-bottom: 30px; }
+  .product__buttons-shop, .product__buttons-wishlist {
+    width: 48%; }
+  .product__buttons-shop {
+    margin-right: 2%; }
+  .product__same {
+    margin-bottom: 20px; }
+  .product__price {
+    margin-bottom: 30px; }
+  .product__buttons {
+    margin-bottom: 30px; }
+  .product__information {
+    margin-bottom: 15px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  #product__slider {
+    display: none; }
+  .product__image {
+    float: left;
+    margin-left: auto;
+    padding-top: 0;
+    margin-right: auto;
+    margin-top: 0;
+    width: 100%; }
+  .product__aside-wrapper {
+    width: 100%;
+    margin-left: auto;
+    padding: 0;
+    margin-right: auto;
+    margin-top: 0; }
+  .product__aside {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 0; }
+  .product__breadcrumbs, .product__same, .product__price, .product__title, .product__information-description, .product__information-detais {
+    margin-left: 15px; }
+  .product__information-description, .product__information-detais {
+    padding-right: 15px; }
+  .product__soc {
+    display: none; }
+  .product__information {
+    width: 90%; }
+  .product__buttons-table {
+    display: table;
+    width: 100%;
+    margin-bottom: 35px; }
+  .product__buttons {
+    display: table-footer-group; }
+  .product__buttons-wrapper {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .product__information {
+    display: table-header-group; }
+  .product__buttons-shop {
+    width: 100%;
+    margin-bottom: 15px; }
+  .product__buttons-wishlist {
+    width: 82%;
+    float: left; }
+  .product__buttons-shop {
+    margin-right: 0; }
+  .product__information-detais {
+    margin-bottom: 20px; }
+  .product__information-more {
+    display: block;
+    position: relative; }
+  .product__information-up {
+    height: 40px;
+    width: 16%;
+    float: left;
+    margin-left: 3px;
+    background: url("../images/up.png") center center no-repeat; }
+  .product__information-ins {
+    display: none;
+    background: #fff;
+    width: -webkit-calc(100%+10px);
+    width: calc(100%+10px);
+    font: 13px "CirceLight";
+    text-transform: none;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-bottom: 1px solid #f4f4f4;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+    top: -20px; }
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    animation: none !important; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/ }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
