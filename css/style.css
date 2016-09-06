@@ -55,7 +55,7 @@ header {
     opacity: 1; }
 
 #testt1 {
-  background: url("../img/moun.jpg") no-repeat center center;
+  background: url("../img/name.jpg") no-repeat center center;
   background-size: cover; }
 
 #testt2 {
@@ -63,6 +63,6 @@ header {
   background-size: cover; }
 
 #testt3 {
-  background: url("../img/name.jpg") no-repeat center center;
+  background: url("../img/moun.jpg") no-repeat center center;
   background-size: cover;
   margin-right: 0; }
