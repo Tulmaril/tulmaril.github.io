@@ -85,9 +85,9 @@ php_value mbstring.func_overload "7"
     
     # Запрещаем кэширование на уровне прокси-сервера для всех
     # файлов, для которых у нас выставлено сжатие.
-    <FilesMatch .*\.(css|js|php|phtml|shtml|html|xml)$>
-        Header append Cache-Control: "private, must-revalidate"
-    </FilesMatch>
+    <FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf)$">
+		Header set Cache-Control "max-age=2592000"
+	</FilesMatch>
 </IfModule>
 
 # Allow cookies to be set from iframes in Internet Explorer.
