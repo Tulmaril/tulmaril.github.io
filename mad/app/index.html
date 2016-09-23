@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="bower/normalize-css/normalize.css"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  </head>
+  <body class="lock">
+    <!--page-wrapper-->
+    <div class="page-wrapper">
+      <!--Header-->
+      <header class="header"><a class="header__menu menu-toggle" href="javascript:void(0);"></a>
+        <div class="header__menu-nav"><a class="header__menu-close menu-toggle" href="javascript:void(0);"></a>
+          <div class="header__menu-text">Поиск вещей, которые я так давно искал Поиск вещей, которые я потерял Поиск каких-нибудь вещей</div>
+          <ul class="header__menu-list">
+            <li class="header__menu-item"><a class="header__menu-link" href="javascript:void(0);">О проекте</a></li>
+            <li class="header__menu-item"><a class="header__menu-link" href="javascsript:void(0);">Написать нам</a></li>
+          </ul>
+        </div><a class="header__mail" href="javascript:void(0);"></a>
+        <div class="header__wave"></div>
+      </header>
+      <!--Center-->
+      <div class="center">
+        <div class="center__slogan">Найдётся всё</div><a class="center__logo" href="javascsript:void(0);"><img src="img/layout/logo.png" alt="MaDSEARCH"/></a>
+        <form id="search">
+          <input class="center__search-input" type="text" name="search" placeholder="Введите то, что так давно искали"/>
+        </form>
+        <div class="center__buttons">
+          <button class="center__buttons-submit" type="submit" form="#search" name="everywhere" value="">искать везде</button>
+          <button class="center__buttons-submit" type="submit" form="#search" name="almost_everywhere" value="почти везде">почти везде</button>
+          <button class="center__buttons-submit" type="submit" form="#search" name="nowhere" value="нигде">нигде</button>
+        </div>
+      </div>
+      <div class="helper">
+        <div class="helper__message">
+          <div class="helper__message-greeting">hi!</div>
+          <div class="helper__message-text">Я готов помочь тебе с поиском.</div><a class="helper__message-link" href="javascsript:void(0);">Просить помощи</a>
+        </div>
+        <div class="helper__close"></div>
+      </div>
+      <div class="buffer"></div>
+    </div>
+    <!--footer-->
+    <footer class="footer"><a class="footer__link" href="javascsript:void(0);"></a></footer>
+  </body>
+  <!-- Scripts-->
+  <script src="bower/jquery/dist/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</html>
