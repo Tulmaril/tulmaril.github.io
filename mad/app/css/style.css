@@ -98,6 +98,12 @@ body {
     height: 6px;
     background: url(../img/layout/wave.png) no-repeat center center; }
 
+.header__menu-about {
+  color: #9740dc; }
+
+.header_menu-callus {
+  color: #a152de; }
+
 .center {
   margin: 0 auto;
   width: 784px;
@@ -219,4 +225,4 @@ body {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background: url(../img/layout/footer_ic.png); }
+  background: url(../img/layout/footer_ic.png) center center no-repeat; }
