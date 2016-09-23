@@ -143,21 +143,24 @@ body {
     background: -webkit-linear-gradient(45deg, #b173b3 0%, #b173b3 0%, #b173b3 0%, #b173b3 0%, #b173b3 0%, #b173b3 0%, #b173b3 8%, #7ba6af 100%);
     background: linear-gradient(45deg, #b173b3 0%, #b173b3 0%, #b173b3 0%, #b173b3 0%, #b173b3 0%, #b173b3 0%, #b173b3 8%, #7ba6af 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b173b3', endColorstr='#7ba6af',GradientType=1 ); }
-    .center__buttons-submit:last-child {
-      margin-right: 0; }
     .center__buttons-submit:hover {
       background: #fff;
       color: #665246; }
       .center__buttons-submit:hover:after {
         content: "";
         position: absolute;
-        top: -7.5px;
-        left: -7px;
+        top: -7px;
+        left: -7.5px;
         -webkit-border-radius: 50%;
                 border-radius: 50%;
         border: 1px solid #fff;
         width: 126px;
         height: 126px; }
+    .center__buttons-submit:last-child {
+      margin-right: 0; }
+      .center__buttons-submit:last-child:hover:after {
+        top: -7px;
+        left: -7px; }
     .center__buttons-submit:active {
       background: transparent;
       color: #fff; }
