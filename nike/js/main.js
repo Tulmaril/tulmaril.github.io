@@ -32,7 +32,7 @@ window.onload = function () {
     clearTimeout(timerBg);
     clearTimeout(timerVideo);
     setTimeout(function () {
-      bg.setAttribute('src', '/img/default.png');
+      bg.setAttribute('src', 'img/default.png');
       bg.style.opacity = '1';
     }, 200);
   };
@@ -43,7 +43,7 @@ window.onload = function () {
     clearTimeout(timerVideo);
     timerBg = setTimeout(function () {
       var bg = document.querySelector('.bg__img');
-      bg.setAttribute('src', '/img/' + src + '.png');
+      bg.setAttribute('src', 'img/' + src + '.png');
       bg.style.opacity = '1';
       timerVideo = setTimeout(function () {
         var video = document.querySelector('.bg__video');
@@ -53,9 +53,9 @@ window.onload = function () {
         var path = '';
 
         if (document.documentElement.clientWidth >= 1255) {
-          path = '/video/desktop/';
+          path = 'video/desktop/';
         } else {
-          path = '/video/mobile/';
+          path = 'video/mobile/';
         }
 
         video.children[0].setAttribute('src', path + src + '.mp4');
