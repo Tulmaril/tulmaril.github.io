@@ -398,6 +398,10 @@ button {
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1255px) {
+  html {
+    overflow: auto;
+    height: auto;
+  }
   body {
     overflow: auto;
     height: auto;
