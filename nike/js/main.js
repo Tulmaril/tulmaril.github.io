@@ -70,6 +70,5 @@ window.onload = function () {
     cards[i].addEventListener('mouseleave', stopVideo, false);
     cards[i].addEventListener('mouseenter', setActive, false);
     cards[i].addEventListener('mouseenter', playVideo, false);
-    cards[i].onclick = "void(0)";
   }
 };
