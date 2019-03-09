@@ -59,6 +59,10 @@ window.onload = function () {
         }
 
         video.children[0].setAttribute('src', path + src + '.mp4');
+
+        video.children[1].setAttribute('src', path + src + '.ogv');
+
+        video.children[2].setAttribute('src', path + src + '.webm');
         video.load();
         video.play();
       }, 2000);
