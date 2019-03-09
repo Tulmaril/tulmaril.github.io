@@ -403,8 +403,8 @@ button {
     height: auto;
   }
   body {
-    overflow: auto;
-    height: hidden;
+    overflow: hidden;
+    height: auto;
     padding-top: 3rem;
   }
   .bg__video {
