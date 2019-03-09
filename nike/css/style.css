@@ -546,4 +546,10 @@ button {
   html {
     font-size: 6px;
   }
+  .menu__login {
+    background-size: 1rem;
+  }
+  .header__slogan {
+    top: 9rem;
+  }
 }
